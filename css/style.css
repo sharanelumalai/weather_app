@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image:url('../img/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-container{
+    margin: 15% 30%;;
+    min-width: 300px;
+    min-height: 80vh;
+    padding: 20px;
+    background-image:url('../img/rose.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    
+}
+.box{
+    width: 100%;
+    background-color:transparent;
+}
+.box1{
+    padding: 5px;
+    display: flex;
+    height: 2.5rem;
+    justify-content: space-between;
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+   
+    
+}
+
+.dosearch{
+    width: 12rem;
+    height: 2em;
+    border: 2px solid white ;
+}
+.click{
+    width: 3.5rem;
+    height: 2em;
+    background-color: rgba(0, 0, 0, 0.782);
+    border: 2px solid rgba(0, 0, 0, 0.782);
+    color: white;
+    border-radius: 5px;
+
+}
+.click:hover{
+    background-color: black;
+     cursor: pointer;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+.l{
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+    
+}
+.lname{
+    color: rgb(128, 0, 77);
+    font-size: 1em;
+    font-weight: bold;
+}
+.dnum{
+    color: rgb(53, 38, 82);
+}
+.box3{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.t{
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;   
+}
+.tepmertaure{
+    height: 65px;
+}
+.temp{
+    font-size: 3rem;
+    color:darkmagenta;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+.weather{
+    color: white;
+    font-size: 1.1rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+.box4{
+    padding: 0.5rem ;
+    background-color: white;
+    display: flex;
+    height: 5.5rem;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.b{
+   
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.t{
+    color: rgba(44, 43, 43, 0.878);
+    font-size: 0.8em;
+}
+.m{
+    font-size: 0.8em;
+}
+.box5{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+.fdays{
+    padding: 10px;
+   text-align: left;
+   font-weight: 600;
+}
+.days{
+   
+   display: flex;
+   justify-content: space-evenly;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    touch-action: pan-y; /* Enable touch input */
+      user-select: none; /* Disable text selection */
+}
+.minibox1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.436);
+    min-width: 31%; 
+    height: 100px;
+    padding:10px;
+    border-radius: 20%;
+    align-items: center;
+    margin-left: 5px;  
+   
+}
+.date1{
+    overflow-y: hidden;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    min-height: 50%;
+    background-color: white;
+    border-radius: 10%;
+}
+.p{
+    text-align: center;
+    background-color:rgb(162, 24, 162);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   margin-left: 20px;
+}
+.ss{
+    width: 15px;
+    color:red;
+}
+.pp{
+    width: 20px;
+    margin-top: 5px;
+    
+}
+.hh{
+    width: 20px;
+    margin-top: 5px;
+}
+.ww{
+    width: 22px;
+    margin-top: 5px;
+}
+.degree{ 
+    margin-top: 0.5em;
+    
+}
+.wimg{
+    width: 15px;
+}
+.deg1{
+    font-size: 0.8em;
+    text-align: center;
+}
+.deg2{
+    font-size: 0.7em;
+}
